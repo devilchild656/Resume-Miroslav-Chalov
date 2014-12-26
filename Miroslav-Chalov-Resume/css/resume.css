@@ -4,7 +4,7 @@
 
 }
 body{
-    overflow: hidden;
+
 }
 
 #container{
@@ -166,7 +166,95 @@ header #profile_pic{
     outline: none;
 }
 #education{
+     background: #714c97;
+    transition:width 2s;
+    display: none;
+    width: 100%;
+}
+#high-school{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 450px;
+    width: 160px;
+}
+#pravec{
+    width: 50%;
+    display: inline-block;
+    float: left;
+    background: #ffbe2b;
+    position: relative;
+}
+#pravec a img{
+    width: 100px;
+}
+#pravec-info{
+    padding: 10px;
+    height: 450px;
+    width: 90%;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+#soft-uni{
+    width: 50%;
+    display: block;
+    float: left;
+    background: #714c97;
+    position: relative;
+}
+#soft-uni a img{
+    width: 100px;
+}
+#soft-uni-info{
+    padding: 10px;
+    height: 450px;
+    width: 90%;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+#university{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 440px;
+    width: 160px;
+}
+/*Rewards*/
+#rewards-button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: #e7efe0;
+    width: 66%;
+}
+#rewards-button:focus{
+    outline: none;
+}
+#hack{
+    background: #ffbe2b;
+}
+#win{
+    background: #714c97;
+}
+#win img{
+    width: 400px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
 
 }
+#reward-icon{
+    width: 200px;
+    margin-top: 20px;
+}
+
+
+
 
 

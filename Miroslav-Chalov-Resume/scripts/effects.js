@@ -7,6 +7,10 @@ $(document).ready(function(){
     $("#skills-button").click(function(){
         $( "#skills" ).toggle('slow');
     })
+    $("#education-button").click(function(){
+        $( "#education" ).toggle('slow');
+    })
+
 
     $(window).scroll(function() {
         if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
