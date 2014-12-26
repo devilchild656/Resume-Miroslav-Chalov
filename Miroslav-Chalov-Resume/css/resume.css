@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    overflow: hidden;
+}
+
+#container{
+
+}
+.back{
+    background: #a8afa3;
+    margin-top: -3px;
+}
+/*header background*/
+header{
+    background: rgb(113, 76, 151);
+    width: 100%;
+    margin: 0 auto;
+    height: 230px;
+    position: relative;
+}
+/*profile pic*/
+header #profile_pic{
+    width: 250px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 100px;
+}
+/*Arrow for scrolling*/
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    border-radius: 35px;
+    display: none;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 4px;
+    top: 1px;
+    font-size: 50px;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: orange;
+    top: -5px;
+}
+/*Contacts*/
+#contact-container{
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    transition: width 2s;
+}
+
+#contact-button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: #e7efe0;
+    width: 33%;
+}
+
+#contact-button:focus{
+    outline: none;
+}
+.contacts{
+    height: 150px;
+    float: left;
+}
+.contacts:nth-child(1){
+    background: #714c97;
+    width: 15%;
+}
+.contacts:nth-child(2){
+    background: #ffd443;
+    width: 20%;
+}
+.contacts:nth-child(3){
+   width: 30%
+}
+.contacts:nth-child(4){
+    background: #ffd443;
+    width: 20%;
+}
+.contacts:nth-child(5){
+    background: #714c97;
+    width: 15%;
+}
+
+/*Skills*/
+
+#skills-button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: #e7efe0;
+    width: 44%;
+}
+#skills-button:focus{
+    outline: none;
+}
+#skills{
+    transition:width 2s;
+    display: none;
+    width: 100%;
+}
+#front-end{
+    width: 50%;
+    background: #ffbe2b;
+    float: left;
+}
+#back-end{
+    width: 50%;
+    background: #714c97;
+    float: left;
+}
+.items{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.items img{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+.items p{
+    padding: 3px;
+}
+/*Education*/
+#education-button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: #e7efe0;
+    width: 56%;
+}
+#education-button:focus{
+    outline: none;
+}
+#education{
+
+}
+
+

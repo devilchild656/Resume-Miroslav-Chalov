@@ -1,0 +1,120 @@
+@font-face {
+    font-family: Tahoma;
+    src: url(../font/Tahoma.ttf);
+}
+body{
+    font-family:Tahoma,sans-serif ;
+}
+/*headers font style*/
+#name{
+    text-align: center;
+    font-size: 1.7em;
+    color: rgba(31, 51, 63, 0.46);
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+#skills h2{
+    text-align: center;
+    padding: 10px;
+}
+/*buttons font style*/
+#contact-button{
+    font-size: 1.3em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #714c97;
+
+}
+#contact-button:hover{
+    color: #ffd443;
+    background: #714c97;
+}
+#skills-button{
+    font-size: 1.3em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #714c97;
+}
+#skills-button:hover{
+    color: #ffd443;
+    background: #714c97;
+}
+/*Contacts font style*/
+.contacts span{
+    font-size: 2.8em;
+    padding: 15px;
+}
+
+.contacts p{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 0.9em;
+    font-weight: bold;
+
+}
+.contacts p a{
+    text-decoration: none;
+}
+.contacts:nth-child(1) span{
+    color: #ffffff;
+}
+.contacts:nth-child(2) span{
+    color: #ffffff;
+}
+.contacts:nth-child(3) span{
+     width: 100%;
+     padding: 0;
+     text-align: center;
+}
+
+.contacts:nth-child(4) span{
+    color: #ffffff;
+}
+.contacts:nth-child(5) span{
+    color: #ffffff;
+}
+
+.contacts:nth-child(1) p{
+     color: #ffffff;
+ }
+.contacts:nth-child(2) p{
+    color: #424b42;
+}
+.contacts:nth-child(3) p{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 1.7em;
+}
+.contacts:nth-child(4) p{
+    color: #424b42;
+}
+.contacts:nth-child(5) p{
+    color: #ffffff;
+}
+/*skills font style */
+.items p{
+    font-size: 1.6em;
+    text-transform: uppercase;
+    text-align: center;
+}
+/*education style fonts*/
+
+#education-button{
+    font-size: 1.3em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #714c97;
+}
+
+#education-button:hover{
+    color: #ffd443;
+    background: #714c97;
+}
+
