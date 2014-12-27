@@ -3,9 +3,7 @@
     padding: 0;
 
 }
-body{
 
-}
 
 #container{
 
@@ -74,7 +72,7 @@ header #profile_pic{
 #contact-button{
     display: block;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
     border: none;
     cursor: pointer;
     background: #e7efe0;
@@ -113,7 +111,7 @@ header #profile_pic{
 #skills-button{
     display: block;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
     border: none;
     cursor: pointer;
     background: #e7efe0;
@@ -156,7 +154,7 @@ header #profile_pic{
 #education-button{
     display: block;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
     border: none;
     cursor: pointer;
     background: #e7efe0;
@@ -228,7 +226,7 @@ header #profile_pic{
 #rewards-button{
     display: block;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
     border: none;
     cursor: pointer;
     background: #e7efe0;
@@ -283,7 +281,7 @@ header #profile_pic{
 #personal-button{
     display: block;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
     border: none;
     cursor: pointer;
     background: #e7efe0;
@@ -329,4 +327,205 @@ header #profile_pic{
 #language-bg p{
     width: 50%;
     margin: 0 auto;
+}
+/*responsive start here*/
+@media screen and (max-width: 1000px){
+
+    /*contacts*/
+    .contacts{
+        text-align: center;
+        float: none;
+    }
+
+    .contacts:nth-child(1){
+        background: #714c97;
+        width: 100%;
+    }
+    .contacts:nth-child(2){
+        background: #ffd443;
+        width: 100%;
+    }
+    .contacts:nth-child(3){
+        width: 100%
+    }
+    .contacts:nth-child(4){
+        background: #ffd443;
+        width: 100%;
+    }
+    .contacts:nth-child(5){
+        background: #714c97;
+        width: 100%;
+    }
+    #contact-button{
+        width: 100%;
+        padding: 2%;
+    }
+
+   /*skills*/
+    #skills-button{
+        width: 100%;
+        padding: 2%;
+    }
+
+    #front-end{
+        width: 100%;
+    }
+    #back-end{
+        width: 100%;
+    }
+    .items{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .items img{
+        width: 20.3%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 2%;
+
+    }
+    .items p{
+        padding: 1%;
+    }
+    /*education*/
+
+    #education-button{
+        padding: 2%;
+        width: 100%;
+    }
+
+    #high-school{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 450px;
+        width: 150px;
+    }
+    #pravec{
+        width: 100%;
+        display: inline-block;
+        float: left;
+        background: #ffbe2b;
+
+    }
+    #pravec a img{
+        width: 90px;
+    }
+    #pravec-info{
+        padding: 5%;
+        height: 400px;
+        width: 90%;
+    }
+
+    #soft-uni{
+        width: 100%;
+    }
+    #soft-uni a img{
+        width: 100px;
+    }
+    #soft-uni-info{
+        padding: 10px;
+        height: 580px;
+        width: 90%;
+        border-radius: 30px;
+        margin: 0 auto;
+    }
+    #university{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 560px;
+        width: 160px;
+    }
+    /*rewards*/
+    #rewards-button{
+        padding: 5%;
+        width: 100%;
+    }
+
+    #rewards{
+        background: #714c97;
+        transition:width 2s;
+        display: none;
+        width: 100%;
+    }
+    #win{
+        width: 100%;
+    }
+    #win img{
+        width: 80%;
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-bottom: 3%;
+        padding: 2%;
+    }
+    #reward-icon{
+        width: 150px;
+        margin-top: 5%;
+    }
+    #certificate{
+        background: #714c97;
+        padding: 5%;
+    }
+    #certificate-pic{
+        width: 200px;
+    }
+    #certificate-all{
+        width: 100%;
+    }
+
+    #certificate-all li{
+        display: inline-block;
+        border: 1px solid;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    /*personal skill*/
+    #personal-button{
+        padding: 5%;
+        width: 100%;
+    }
+    #personal{
+        width: 100%;
+    }
+
+    #personal-skills img{
+        width: 150px;
+        padding: 0;
+        margin: 0;
+    }
+    #language-eu{
+        width: 100%;
+        padding: 0;
+        padding-bottom: 5%;
+        margin: 0;
+
+    }
+    #language-eu p{
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+
+    }
+    #language-bg{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 5%;
+
+
+    }
+    #language-bg p{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+
+    }
 }

@@ -4,6 +4,7 @@
 }
 body{
     font-family:Tahoma,sans-serif ;
+    font-size: 1em;
 }
 /*headers font style*/
 #name{
@@ -52,8 +53,8 @@ body{
 
 .contacts p{
     margin-top: 20px;
-    margin-left: 15px;
-    font-size: 0.9em;
+    margin-left: 5px;
+    font-size: 0.8em;
     font-weight: bold;
 
 }
@@ -127,6 +128,8 @@ body{
 #pravec p{
     text-align: center;
     font-size: 1.2em;
+    width: 100%;
+    display: block;
 }
 
 #pravec-info{
@@ -235,12 +238,15 @@ body{
      background: #714c97;
      font-size: 1.4em;
      padding: 4px;
+     margin-top: 20px;
+
  }
 #language-eu p:nth-child(even){
     text-align: center;
     background: #ffd443;
     font-size: 1.1em;
     padding: 4px;
+
 }
 #language-eu  div .language-type{
     border: none;
@@ -254,16 +260,25 @@ body{
     background: #ffd443;
     font-size: 1.2em;
     padding: 4px;
+
+
 }
 #language-bg p:nth-child(even){
     text-align: center;
     background: #a577de;
     font-size: 1.4em;
     padding: 4px;
+    margin-top: 20px;
+
 }
 #language-bg  div .language-type{
     border: none;
     font-size: 1.9em;
     padding: 10px;
     background: none;
+
+}
+/*responsive start here*/
+@media screen and (max-width: 1000px){
+
 }
