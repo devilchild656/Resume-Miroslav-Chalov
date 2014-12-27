@@ -60,7 +60,7 @@ header #profile_pic{
     background: rgba(0, 0, 0, 0.9);
 }
 #return-to-top:hover i {
-    color: orange;
+    color: #ffbe2b;
     top: -5px;
 }
 /*Contacts*/
@@ -74,7 +74,7 @@ header #profile_pic{
 #contact-button{
     display: block;
     margin: 0 auto;
-    padding: 10px;
+    padding: 30px;
     border: none;
     cursor: pointer;
     background: #e7efe0;
@@ -113,7 +113,7 @@ header #profile_pic{
 #skills-button{
     display: block;
     margin: 0 auto;
-    padding: 10px;
+    padding: 30px;
     border: none;
     cursor: pointer;
     background: #e7efe0;
@@ -156,7 +156,7 @@ header #profile_pic{
 #education-button{
     display: block;
     margin: 0 auto;
-    padding: 10px;
+    padding: 30px;
     border: none;
     cursor: pointer;
     background: #e7efe0;
@@ -224,10 +224,11 @@ header #profile_pic{
     width: 160px;
 }
 /*Rewards*/
+
 #rewards-button{
     display: block;
     margin: 0 auto;
-    padding: 10px;
+    padding: 30px;
     border: none;
     cursor: pointer;
     background: #e7efe0;
@@ -235,6 +236,13 @@ header #profile_pic{
 }
 #rewards-button:focus{
     outline: none;
+}
+
+#rewards{
+    background: #714c97;
+    transition:width 2s;
+    display: none;
+    width: 100%;
 }
 #hack{
     background: #ffbe2b;
@@ -244,17 +252,81 @@ header #profile_pic{
 }
 #win img{
     width: 400px;
-    border-radius: 30px;
-    margin-top: 20px;
+    border-radius: 30px 0 30px 0;
+    margin-top: 10px;
     margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
 
 }
 #reward-icon{
     width: 200px;
     margin-top: 20px;
 }
+#certificate{
+    background: #714c97;
+    padding: 20px;
+}
+#certificate-pic{
+    width: 200px;
+}
 
+#certificate-all li{
+    display: inline-block;
+    border: 1px solid;
+    width: 30%;
+    margin: 5px;
+    padding: 5px;
+}
+/*Personal-Skills*/
 
+#personal-button{
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+    border: none;
+    cursor: pointer;
+    background: #e7efe0;
+    width: 77%;
+}
+#personal-button:focus{
+    outline: none;
+}
 
+#personal{
+    background: #714c97;
+    transition:width 2s;
+    display: none;
+    width: 100%;
+}
 
+#personal-skills{
+    width: 100%;
+    background: #714c97;
+}
 
+#personal-skills img{
+    width: 150px;
+    padding: 20px;
+}
+#language-eu{
+     width: 100%;
+    padding: 20px;
+     background: #ffbe2b;
+
+ }
+#language-eu p{
+    width: 50%;
+    margin: 0 auto;
+
+}
+#language-bg{
+    width: 100%;
+    padding: 20px;
+    background: #714c97;
+
+}
+#language-bg p{
+    width: 50%;
+    margin: 0 auto;
+}

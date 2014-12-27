@@ -12,6 +12,7 @@ body{
     color: rgba(31, 51, 63, 0.46);
     margin-top: 100px;
     margin-bottom: 15px;
+    padding: 30px;
 }
 #skills h2{
     text-align: center;
@@ -174,5 +175,95 @@ body{
 }
 #rewards p{
     font-size: 1.2em;
-    margin: 20px;
+    padding-bottom: 20px;
+}
+#certificate h4{
+    font-size: 1.8em;
+    margin: 0;
+    padding-top: 30px;
+}
+#certificate-all li{
+    color:#714c97;
+    background: #ffbe2b;
+    font-size: 1.1em;
+    text-transform: uppercase;
+
+}
+#certificate-all li a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+#certificate-all li:hover{
+    color:#ffbe2b;
+    background: #714c97;
+
+}
+/*personal skills*/
+
+#personal-button{
+    font-size: 1.3em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #714c97;
+}
+#personal-button:hover{
+    color: #ffd443;
+    background: #714c97;
+}
+
+#personal  h5{
+    font-size: 1.6em;
+    padding: 15px;
+    text-align: center;
+}
+
+#personal-skills{
+    text-align: center;
+}
+
+#personal-skills p{
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+#language-eu p:nth-child(odd){
+     text-align: center;
+     background: #714c97;
+     font-size: 1.4em;
+     padding: 4px;
+ }
+#language-eu p:nth-child(even){
+    text-align: center;
+    background: #ffd443;
+    font-size: 1.1em;
+    padding: 4px;
+}
+#language-eu  div .language-type{
+    border: none;
+    font-size: 1.9em;
+    padding: 10px;
+    background: none;
+}
+
+#language-bg p:nth-child(odd){
+    text-align: center;
+    background: #ffd443;
+    font-size: 1.2em;
+    padding: 4px;
+}
+#language-bg p:nth-child(even){
+    text-align: center;
+    background: #a577de;
+    font-size: 1.4em;
+    padding: 4px;
+}
+#language-bg  div .language-type{
+    border: none;
+    font-size: 1.9em;
+    padding: 10px;
+    background: none;
 }

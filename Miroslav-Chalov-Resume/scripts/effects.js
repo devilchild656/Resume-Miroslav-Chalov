@@ -7,9 +7,18 @@ $(document).ready(function(){
     $("#skills-button").click(function(){
         $( "#skills" ).toggle('slow');
     })
+
+    $("#rewards-button").click(function(){
+        $( "#rewards" ).toggle('slow');
+    })
+
     $("#education-button").click(function(){
         $( "#education" ).toggle('slow');
     })
+    $("#personal-button").click(function(){
+        $( "#personal" ).toggle('slow');
+    })
+
 
 
     $(window).scroll(function() {
